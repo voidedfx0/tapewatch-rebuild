@@ -2,7 +2,6 @@ import { NextResponse } from 'next/server';
 import { isAddress } from 'viem';
 import { processorAbi, processorFactory, xLayerClient } from '@/lib/xlayer';
 
-export const runtime = 'edge';
 export const revalidate = 0;
 
 export async function GET(_request: Request, context: { params: Promise<{ address: string }> }) {
