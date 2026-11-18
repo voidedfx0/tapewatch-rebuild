@@ -16,7 +16,8 @@
     "next": "^15.5.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "@opennextjs/cloudflare": "latest"
+    "@opennextjs/cloudflare": "latest",
+    "viem": "^2.38.5"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
