@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import { factoryAbi, processorAbi, processorFactory, xLayerClient } from '@/lib/xlayer';
 
-export const runtime = 'edge';
 export const revalidate = 0;
 
 export async function GET(request: Request) {
